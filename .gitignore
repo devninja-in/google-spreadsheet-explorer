@@ -1,0 +1,7 @@
+.streamlit
+.streamlit/secret.toml
+.streamlit/config.toml
+.env
+.venv/
+.idea/
+.git/
