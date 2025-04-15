@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Default base folder ID from environment variables
-DEFAULT_BASE_FOLDER_ID = os.environ.get('PRICE_BOOK_PARENT_FOLDER_ID')
+DEFAULT_BASE_FOLDER_ID = os.environ.get('GOOGLE_DRIVE_PARENT_FOLDER_ID')
 
 
 def setup_page_config():

@@ -39,7 +39,7 @@ A Streamlit application for browsing and analyzing Google Drive spreadsheets and
 3. Create a `.env` file with the following environment variables:
    ```
    GOOGLE_DRIVE_CREDENTIALS='{"type": "service_account", ...}'
-   PRICE_BOOK_PARENT_FOLDER_ID='your_folder_id'
+   GOOGLE_DRIVE_PARENT_FOLDER_ID='your_folder_id'
    ```
 4. Install dependencies:
    ```
@@ -53,8 +53,8 @@ A Streamlit application for browsing and analyzing Google Drive spreadsheets and
 ## Environment Variables
 
 - `GOOGLE_DRIVE_CREDENTIALS`: JSON string of Google service account credentials
-- `PRICE_BOOK_PARENT_FOLDER_ID`: The ID of the parent folder to browse (optional, defaults to root)
+- `GOOGLE_DRIVE_PARENT_FOLDER_ID`: The ID of the parent folder to browse (optional, defaults to root)
 
 ## Podman Steps
-- podman build -t pricebook-exploer .
-- podman run --env-file .env -p 8501:8501 pricebook-exploer
+- podman build -t google-spreadsheet-explorer .
+- podman run --env-file .env -p 8501:8501 google-spreadsheet-explorer
