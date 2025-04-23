@@ -1,0 +1,9 @@
+.streamlit
+.streamlit/secret.toml
+.streamlit/config.toml
+.env
+.venv/
+.idea/
+.git/
+__pycache__/
+*.py[cod]
